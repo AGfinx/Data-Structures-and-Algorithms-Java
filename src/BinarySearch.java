@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 /**
  * BinarySearch class demonstrates the implementation of
  * the Binary Search algorithm using an iterative approach.
@@ -17,14 +15,11 @@ public class BinarySearch {
      */
     public static void main(String[] args) {
 
-        // Array of integers (unsorted)
-        int[] nums = {1, 2, 5, 11, 19, 12, 10, 29};
+        // Array of integers (sorted)
+        int[] nums = {1, 2, 5, 11, 12, 29};
 
         // Element to be searched
-        int target = 19;
-
-        // Sort the array because Binary Search requires sorted data
-        Arrays.sort(nums);
+        int target = 11;
 
         // Call binarySearch method
         int result = binarySearch(nums, target);
@@ -56,7 +51,7 @@ public class BinarySearch {
         while (start <= end) {
 
             // Calculate middle index (avoids overflow)
-            int mid = start + (end - start) / 2;
+            int mid = ( start + end) / 2;
 
             // If target is found at mid
             if (arr[mid] == target) {
