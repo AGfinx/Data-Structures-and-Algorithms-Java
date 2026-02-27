@@ -11,7 +11,7 @@ public class QuickSort {
         printArray(arr);
 
         // Call insertion sort method
-        quickSort(arr, 0, arr.length);
+        quickSort(arr, 0, arr.length-1);
 
         // Print array after sorting
         System.out.println("\nAfter Sorting:");
@@ -24,7 +24,7 @@ public class QuickSort {
     public static int[] quickSort(int[] arr, int low, int high){
 
         int pi = partition(arr, low, high);
-        if (low < high){
+        if (low > high){
             quickSort(arr, low, pi-1);
             quickSort(arr, pi+1 , high);
         }
