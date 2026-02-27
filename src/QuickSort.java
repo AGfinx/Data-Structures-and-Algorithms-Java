@@ -111,7 +111,7 @@ public class QuickSort {
 
     /**
      * Prints all elements of the array in a single line.
-     * hello world
+     *
      * @param arr the array to be printed
      */
     public static void printArray(int[] arr) {
