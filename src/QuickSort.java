@@ -80,18 +80,33 @@ public class QuickSort {
                 i++;
 
                 // Swap arr[i] and arr[j]
-                int temp = arr[i];
-                arr[i] = arr[j];
-                arr[j] = temp;
+                swap(arr, i, j);
             }
         }
 
         // Place pivot in correct position
-        int temp = arr[i + 1];
-        arr[i + 1] = arr[high];
-        arr[high] = temp;
+        swap(arr, i + 1, high);
 
         return i + 1;
+    }
+
+    /**
+     * Swaps two elements in the given array.
+     *
+     * @param arr the array in which elements are to be swapped
+     * @param i   index of the first element
+     * @param j   index of the second element
+     */
+    private static void swap(int[] arr, int i, int j) {
+
+        // Store value of arr[i] in temporary variable
+        int temp = arr[i];
+
+        // Assign arr[j] to arr[i]
+        arr[i] = arr[j];
+
+        // Assign temp (original arr[i]) to arr[j]
+        arr[j] = temp;
     }
 
     /**
