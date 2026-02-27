@@ -43,7 +43,7 @@ public class QuickSort {
     public static void quickSort(int[] arr, int low, int high) {
 
         // Base condition
-        if (low > high) {
+        if (low < high) {
 
             // Partition the array and get pivot index
             int pi = partition(arr, low, high);
