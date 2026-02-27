@@ -21,7 +21,7 @@ If you discover a security vulnerability, please follow these steps:
 1. **Do NOT open a public issue**
 2. Report the issue privately via:
    - GitHub Security Advisory (recommended)
-   - Or email: your-email@example.com
+   - Or email: abhijeet2779@gamil.com
 
 Please include:
 
