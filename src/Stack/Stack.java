@@ -11,6 +11,14 @@ public class Stack {
         size = arr.length;
     }
 
+    public boolean isEmpty(){
+        return (top == -1);
+    }
+
+    public boolean isFull(){
+        return (top >= size - 1);
+    }
+
     public void push(int i) {
         top++;
         arr[top] = i;
