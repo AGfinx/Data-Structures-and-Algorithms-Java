@@ -12,7 +12,8 @@ public class Stack {
     }
 
     public void push(int i) {
-
+        top++;
+        arr[top] = i;
     }
 
     public void pop() {
