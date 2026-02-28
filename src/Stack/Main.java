@@ -13,7 +13,6 @@ public class Main {
 
         nums.push(30);
         nums.push(40);
-
         nums.printStack();
 
         System.out.println(nums.peek());
