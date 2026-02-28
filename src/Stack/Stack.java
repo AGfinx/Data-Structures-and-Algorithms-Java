@@ -2,7 +2,7 @@ package Stack;
 
 public class Stack {
 
-    private int[] arr = new int[50];
+    private final int[] arr = new int[5];
     int top;
     int size;
 
