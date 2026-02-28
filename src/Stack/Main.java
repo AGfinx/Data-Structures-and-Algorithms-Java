@@ -7,7 +7,10 @@ public class Main {
 
         nums.push(10);
         nums.push(20);
-//        System.out.println(nums.pop());
+
+        nums.printStack();
+        System.out.println(nums.pop());
+
         nums.push(30);
         nums.push(40);
 
