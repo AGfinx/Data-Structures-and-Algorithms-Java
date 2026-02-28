@@ -43,8 +43,6 @@ This repository follows a **clean, modular structure**, includes **optimized sol
 - Searching (Linear, Binary)
 - Sorting (Bubble, Selection, Insertion, Merge, Quick)
 - Recursion & Backtracking
-- Sliding Window
-- Two Pointers
 - Greedy Algorithms
 - Divide & Conquer
 - Dynamic Programming
@@ -73,6 +71,7 @@ Tree	Inorder Traversal	https://leetcode.com/problems/binary-tree-inorder-travers
 Graph	Number of Islands	https://leetcode.com/problems/number-of-islands
 
 DP	Climbing Stairs	https://leetcode.com/problems/climbing-stairs
+
 📌 Naming Conventions
 
 Class names: PascalCase
