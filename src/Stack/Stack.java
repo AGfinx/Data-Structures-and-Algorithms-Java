@@ -20,8 +20,12 @@ public class Stack {
     }
 
     public void push(int i) {
-        top++;
-        arr[top] = i;
+        if (!isFull()){
+            arr[++top] = i;
+        }
+        else {
+            System.out.println("Stack Overflow");
+        }
     }
 
     public void pop() {
