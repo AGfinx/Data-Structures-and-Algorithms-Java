@@ -40,4 +40,8 @@ public class Stack {
         }
         System.out.println();
     }
+
+    public int peek() {
+        return arr[top];
+    }
 }
