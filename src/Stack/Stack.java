@@ -18,4 +18,11 @@ public class Stack {
 
     public void pop() {
     }
+
+    public void printStack(){
+        for (int i = 0; i<=top; i++){
+            System.out.print(arr[i] + " ");
+        }
+        System.out.println();
+    }
 }
