@@ -28,7 +28,10 @@ public class Stack {
         }
     }
 
-    public void pop() {
+    public Object pop() {
+        if (isEmpty())
+            return null;
+        return arr[top--];
     }
 
     public void printStack(){
