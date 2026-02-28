@@ -30,7 +30,6 @@ public class LinkedList {
 
     }
 
-
     public void printValues() {
         Node current = head;
         while (current!= null) {
@@ -39,5 +38,16 @@ public class LinkedList {
         }
         System.out.println("null");
         System.out.println();
+    }
+
+    public void addFirst(int data) {
+        Node newNode = new Node(data);
+        Node current = newNode;
+        if (head == null)
+            head = newNode;
+        else {
+            current.next = head;
+            head = current;
+        }
     }
 }

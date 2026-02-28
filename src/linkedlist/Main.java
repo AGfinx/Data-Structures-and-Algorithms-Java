@@ -8,6 +8,8 @@ public class Main {
         nums.add(5);
         nums.add(4);
 
+        nums.addFirst(6);
+
 //        System.out.println(nums.get(2));
 //        nums.peek();
 
