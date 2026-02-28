@@ -27,7 +27,6 @@ public class LinkedList {
             }
             current.next = newNode;
         }
-
     }
 
     public void printValues() {
@@ -47,5 +46,28 @@ public class LinkedList {
             newNode.next = head;
         }
         head = newNode;
+    }
+
+    public Object get(int i) {
+        int index = 0;
+        Node current = head;
+        if (head == null){
+            return null;
+        }
+        else {
+            while (index<i){
+                current = current.next;
+                index++;
+            }
+            return current.data;
+        }
+    }
+
+    public void peek() {
+        if( head == null)
+            System.out.println("No Node present");
+        else {
+            System.out.println(head.data);
+        }
     }
 }

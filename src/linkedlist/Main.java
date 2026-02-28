@@ -10,8 +10,8 @@ public class Main {
 
         nums.addFirst(6);
 
-//        System.out.println(nums.get(2));
-//        nums.peek();
+        System.out.println(nums.get(2));
+        nums.peek();
 
         nums.printValues();
     }
