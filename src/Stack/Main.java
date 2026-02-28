@@ -11,6 +11,6 @@ public class Main {
         nums.push(30);
         nums.push(40);
 
-        System.out.println(nums);
+        nums.printStack();
     }
 }
