@@ -1,3 +1,5 @@
+package Search;
+
 /**
  * BinarySearch class demonstrates the implementation of
  * the Binary Search algorithm using an iterative approach.

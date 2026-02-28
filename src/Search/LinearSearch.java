@@ -1,3 +1,5 @@
+package Search;
+
 /**
  * LinearSearch class demonstrates the implementation of
  * the Linear Search algorithm in Java.
