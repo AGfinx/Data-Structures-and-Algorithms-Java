@@ -70,4 +70,15 @@ public class LinkedList {
             System.out.println(head.data);
         }
     }
+
+    public void delete(int i) {
+        Node current = head;
+
+        while (current.next != null && current.next.data != i){
+            current = current.next;
+        }
+        if (current.next != null){
+            current.next = current.next.next;
+        }
+    }
 }

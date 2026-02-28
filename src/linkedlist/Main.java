@@ -14,5 +14,8 @@ public class Main {
         nums.peek();
 
         nums.printValues();
+        nums.delete(5);
+        nums.printValues();
+
     }
 }
